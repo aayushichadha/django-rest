@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> Maximum number </title>
+</head>
+<body>
+<form method="post" action="/max/" >
+    {% csrf_token %}
+    {{ form }}
+    <input name="num" type="submit" value="Submit" />
+</form>
+</body>
+</html>
